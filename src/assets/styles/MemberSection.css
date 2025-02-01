@@ -68,16 +68,21 @@
   margin: 8px;
 }
 
+/* responsiveness */
+
 @media (max-width: 768px) {
   .member-section {
     padding-bottom: 0%;
   }
+
   .members-grid {
     gap: 1.3rem;
   }
+
   .member-title {
     font-size: 2rem;
   }
+
   .section-container {
     padding: 0%;
     max-width: 100%;

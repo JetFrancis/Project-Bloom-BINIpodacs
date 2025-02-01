@@ -87,6 +87,7 @@
   align-items: center;
 }
 
+/* responsiveness */
 @media (max-width: 768px) {
   .about-content {
     flex-direction: column-reverse;

@@ -31,8 +31,10 @@ nav .nav-links a {
 }
 
 nav .nav-links a:hover {
-  color: #ec4899; /* Tailwind's pink-500 equivalent */
+  color: #ec4899;
 }
+
+/* responsiveness */
 
 @media (max-width: 768px) {
   .nav-links a {

@@ -6,7 +6,7 @@ const FanclubSection = () => {
     <section class="fan-club">
       <div class="fan-club-content">
         <h2>
-          Join our official fan club for exclusive content, early access to
+          "Join our official fan club for exclusive content, early access to
           tickets, and more!"
         </h2>
       </div>

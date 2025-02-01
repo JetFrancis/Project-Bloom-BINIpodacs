@@ -2,6 +2,7 @@ import React from "react";
 import "../assets/styles/DiscographySection.css";
 
 const DiscographySection = () => {
+  // sets into array
   const albums = [
     { alt: "Pantropiko", image: "src/assets/images/image 11.png" },
     { alt: "Karera", image: "src/assets/images/image 10.png" },

@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/styles/MemberSection.css";
 
+// set into array and layout per picture
 const MemberSection = () => {
   const members = [
     {
