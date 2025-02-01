@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kadwa:wght@400;700&display=swap");
+
+/* Navigation */
+nav {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  padding: 0;
+  z-index: 100;
+}
+
+nav .container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  max-width: 1200px;
+  align-items: center;
+}
+
+nav .nav-links {
+  display: flex;
+  gap: 50px;
+  font-size: 1.2rem;
+}
+
+nav .nav-links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-family: "Josefin Sans";
+}
+
+nav .nav-links a:hover {
+  color: #ec4899; /* Tailwind's pink-500 equivalent */
+}
+
+@media (max-width: 768px) {
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+}

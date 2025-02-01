@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kadwa:wght@400;700&display=swap");
+
+/* DISCOGRAPHY */
+/* DiscographySection.jsx */
+
+.disc-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100%;
+  padding: 1rem;
+  font-size: 1.3rem;
+  align-items: center;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.disc-section > * {
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+  margin: 0%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    align-items: center;
+  }
+}
+
+.disc-container {
+  max-width: 100rem;
+  margin: 3rem 5rem;
+}
+
+.disc-container h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.disc-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  .disc-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .disc-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.875rem;
+    padding: 5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .disc-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .disc-container h2 {
+    font-size: 2rem;
+  }
+
+  .disc-container {
+    margin: 0 auto;
+  }
+
+  .disc-section {
+    margin: 4rem;
+  }
+}
+
+.album {
+  cursor: pointer;
+}
+
+.album-image-container {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+}
+
+.album-image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.album-image-container:hover img {
+  transform: scale(1.05);
+}
+
+.album-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
